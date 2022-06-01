@@ -14,6 +14,7 @@ features:
     - start and finish date
     - small summary
     - rating (out of 10)
+    - author
     * content warnings
 - retrieve books with certain criteria
     - rating
