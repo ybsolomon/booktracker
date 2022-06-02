@@ -52,11 +52,9 @@ public class Driver {
         }
 
         System.out.print("Would you like to sort your books? (y/n): ");
-
         if (in.next().charAt(0) == 'y') {
             System.out.print("Sort by GENRE (1), AUTHOR (2), FINISH DATE (3), TIMES READ (4), or RATING (5): ");
             char sort = in.next().charAt(0);
-            
             switch (sort) {
                 case '1': 
                     Collections.sort(books, Book.GENRE_COMP);
